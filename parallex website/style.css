@@ -1,0 +1,102 @@
+html,
+body {
+  height: 100%;
+  margin:auto;
+  font-size: 23px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  background-color: #313534;
+}
+.pimg1 {
+  background-image: url(./imagess/img11.jpeg);
+  min-height: 100%;
+}
+.pimg2 {
+  background-image: url(./imagess/aa1.jpeg);
+  min-height: 600px;
+}
+.pimg3 {
+  background-image: url(./imagess/bat.jpg);
+  min-height: 600px;
+}
+.pimg4{
+    background-image: url(./imagess/imgg1.jpeg);
+    min-height: 600px;
+}
+.pimg1,
+.pimg2,
+.pimg3,
+.pimg4 {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-size: 35px;
+  letter-spacing: 4px;
+  font-weight: bold;
+  
+  opacity: 0.83;
+  font-family: 'Times New Roman', Times, serif;
+}
+.textBg{
+  background: #313534;
+  color: #fff;
+  padding: 30px;
+  border:2px solid black;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  max-width:770px; 
+  margin: auto; 
+  text-align: center;
+}
+.textBg1{
+   background: #313534;
+  color: #fff;
+  padding: 30px;
+  border:2px solid black;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  max-width: 580px; 
+  margin: auto; 
+  text-align: center;
+
+}
+.textBg2{
+    background: #313534;
+   color: #fff;
+   padding: 30px;
+   border:2px solid black;
+   border-radius: 6px;
+   display: flex;
+   align-items: center;
+   max-width: 780px; 
+   margin: auto; 
+   text-align: center;
+ 
+ }
+.section{
+    padding: 50x 80x;
+    text-align: center;
+}
+
+.section-dark {
+    background-color: #282e34;
+    color: #ddd;
+  }
+#txt1{
+    margin-left:50px;
+    margin-right:50px;
+}
